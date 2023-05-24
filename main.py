@@ -58,7 +58,7 @@ def chatgpt_query(prompt, header):
     full_prompt = initial_prompt + '\nNow my query is:\n' + prompt + '\n Only provide your answer with the code'
 
     # Tuning of the AI model parameters allowing to further customize the response
-    openai.api_key = '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' # This is my personal OpenAI API key
+    openai.api_key = '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' # This is my personal OpenAI API key
     model_engine = 'text-davinci-003'  # The most advanced AI model currently offered by the API
 
     completion = openai.Completion.create(engine=model_engine,
